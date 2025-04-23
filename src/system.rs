@@ -1,1 +1,3 @@
-pub trait System {}
+pub trait System {
+    fn compile(&self);
+}

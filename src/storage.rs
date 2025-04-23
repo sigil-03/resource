@@ -1,5 +1,5 @@
 use crate::resource::Resource;
 
-pub trait Storage {
-    type RESOURCE: Resource;
+pub trait Storage<RES: Resource> {
+    fn get_capacity(&self) -> usize;
 }

@@ -1,4 +1,4 @@
 use crate::resource::Resource;
-pub trait Sink {
-    type RESOURCE: Resource;
+pub trait Sink<RES: Resource> {
+    fn get_rate(&self) -> usize;
 }

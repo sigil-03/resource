@@ -1,5 +1,5 @@
 use crate::resource::Resource;
 
-pub trait Source {
-    type RESOURCE: Resource;
+pub trait Source<RES: Resource> {
+    fn get_rate(&self) -> usize;
 }
