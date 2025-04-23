@@ -1,17 +1,17 @@
 # RESOURCE
 some general noodling about resources
 
-# RESOURCE
+## RESOURCE
 a `Resource` is a material/asset/etc. in the network 
 
-# SOURCE
+## SOURCE
 a `Source` provides a resource to the network
 
-# SINK
+## SINK
 a `Sink` pulls a resource from the network
 
-# STORAGE 
+## STORAGE 
 a `Storage` must be both a `Source` and a `Sink` and have some `capacity` to store a `Resource`
 
-# SYSTEM
+## SYSTEM
 a `System` is a collection of of `Source`s `Sink`s and `Storage`s 
